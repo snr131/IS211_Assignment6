@@ -164,8 +164,6 @@ class ConversionFunctions(unittest.TestCase):
         (-1, -1),
         (-10, -10))
 
-    conversion_possibilities = [('C', 'C'), ('C', 'F'), ('C', 'K'), ('F', 'F'), ('F', 'K'), ('K', 'K')]
-
     def test_convertCToSelf(self):
         fromUnit = 'C'
         toUnit = 'C'
